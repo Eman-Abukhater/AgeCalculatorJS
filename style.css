@@ -64,3 +64,43 @@
   background-size: 30px;
   cursor: pointer;
 }
+#result{
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#result span{
+
+  color: #915228;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .calculator {
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .calculator h1 {
+    font-size: 40px;
+  }
+
+  .input-box {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .input-box input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .input-box button {
+    width: 100%;
+  }
+}
+
