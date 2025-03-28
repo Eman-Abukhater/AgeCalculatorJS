@@ -14,18 +14,6 @@ function calculateAge(){
     let m2 = today.getMonth() + 1;
     let y2 = today.getFullYear();
 
-    let ageYear = y2 - y1;
-
-    if ( m2 >= m1){
-        m3 = m2-m1
-
-    } else {
-        ageYear--;
-        m3 = 12 +(m2 - m1) ;
-
-    }
-
-
 
 
 
